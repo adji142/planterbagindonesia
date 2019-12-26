@@ -1,0 +1,6 @@
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Signers_BodySigner' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Signers/SMimeSigner.php on line 21
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Signers/BodySigner.php on line 19
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Signers/DKIMSigner.php on line 19
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Class 'Swift_Signers_DKIMSigner' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Signers/PeclDKIMSigner.php on line 21
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Signers/HeaderSigner.php on line 18
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Signers/DomainKeySigner.php on line 19

@@ -1,0 +1,4 @@
+[31-Mar-2015 10:11:54 America/New_York] PHP Warning:  require(/home/k8174501/public_html/application/libraries/swift/Swift.php): failed to open stream: No such file or directory in /home/k8174501/public_html/application/libraries/swift/swift_required_pear.php on line 22
+[31-Mar-2015 10:11:54 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/k8174501/public_html/application/libraries/swift/Swift.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/k8174501/public_html/application/libraries/swift/swift_required_pear.php on line 22
+[31-Mar-2015 10:11:54 America/New_York] PHP Fatal error:  Class 'Swift_Preferences' not found in /home/k8174501/public_html/application/libraries/swift/preferences.php on line 10
+[31-Mar-2015 10:11:54 America/New_York] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/k8174501/public_html/application/libraries/swift/dependency_maps/cache_deps.php on line 3

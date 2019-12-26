@@ -1,0 +1,3 @@
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php on line 19
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php on line 19
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_Transport_Esmtp_Authenticator' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php on line 19

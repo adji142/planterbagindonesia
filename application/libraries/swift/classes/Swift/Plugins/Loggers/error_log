@@ -1,0 +1,2 @@
+[31-Mar-2015 10:11:54 America/New_York] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Plugins/Loggers/ArrayLogger.php on line 19
+[31-Mar-2015 10:11:54 America/New_York] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Plugins/Loggers/EchoLogger.php on line 19

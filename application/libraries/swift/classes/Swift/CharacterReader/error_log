@@ -1,0 +1,3 @@
+[31-Mar-2015 10:11:52 America/New_York] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/CharacterReader/UsAsciiReader.php on line 19
+[31-Mar-2015 10:11:52 America/New_York] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/CharacterReader/GenericFixedWidthReader.php on line 20
+[31-Mar-2015 10:11:53 America/New_York] PHP Fatal error:  Interface 'Swift_CharacterReader' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/CharacterReader/Utf8Reader.php on line 20

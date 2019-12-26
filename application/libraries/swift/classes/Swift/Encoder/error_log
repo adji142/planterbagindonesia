@@ -1,0 +1,3 @@
+[31-Mar-2015 10:11:51 America/New_York] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Encoder/Base64Encoder.php on line 19
+[31-Mar-2015 10:11:51 America/New_York] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Encoder/QpEncoder.php on line 21
+[31-Mar-2015 10:11:51 America/New_York] PHP Fatal error:  Interface 'Swift_Encoder' not found in /home/k8174501/public_html/application/libraries/swift/classes/Swift/Encoder/Rfc2231Encoder.php on line 19
