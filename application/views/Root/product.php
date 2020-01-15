@@ -1,6 +1,6 @@
 <?php
-    require_once(APPPATH."views/Root/parts/header.php");
-    require_once(APPPATH."views/Root/parts/sidebar.php");
+    require_once(APPPATH."views/Root/parts/Header.php");
+    require_once(APPPATH."views/Root/parts/Sidebar.php");
     $active = 'dashboard';
 ?>
 <style type="text/css">
@@ -154,7 +154,7 @@
 <!-- end Modal -->
 
 <?php
-    require_once(APPPATH."views/Root/parts/footer.php");
+    require_once(APPPATH."views/Root/parts/Footer.php");
 ?>
 
 <script type="text/javascript">
