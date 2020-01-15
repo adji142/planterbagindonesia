@@ -28,7 +28,7 @@ class home extends CI_Controller {
 	public function index()
 	{
 		// var_dump(ADMINF.'Index');
-		$this->load->view('Root/index');
+		$this->load->view('Root/Index');
 	}
 	public function dashboard()
 	{
