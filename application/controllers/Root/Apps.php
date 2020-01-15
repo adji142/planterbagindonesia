@@ -257,5 +257,64 @@ class Apps extends CI_Controller {
 			$data['message'] = 'Banner Gagal di simpan';
 		}
 		echo json_encode($data);
-    }	
+    }
+    public function getordertc()
+    {
+    	$id = $this->input->post('id');
+		$data = array('success' => false ,'message'=>array(),'data'=>array());
+		$rs = $this->ModelsExecuteMaster->FindData(array('id'=>$id),'thowtoorder',"'id','ASC'");
+		if ($rs->num_rows()>0) {
+			$data['success']=true;
+			$data['data']=$rs->result();
+		}
+		echo json_encode($data);
+    }
+    public function addordertc()
+    {
+    	$data = array('success' => false ,'message'=>array(),'data'=>array());
+    	$id_desc = $this->input->post('id_desc');
+        $toped = $this->input->post('toped');
+        $bl = $this->input->post('bl');
+        $shopee = $this->input->post('shopee');
+        $ig = $this->input->post('ig');
+        $fb = $this->input->post('fb');
+        $formtype = $this->input->post('formtype');
+        $id =$this->input->post('id');
+
+        $apped = array(
+        		'description'	=> $id_desc,
+				'toped'			=> $toped,
+				'bukalapak'		=> $bl,
+				'shopee'		=> $shopee,
+				'instagram'		=> $ig,
+				'facebook'		=> $fb,
+				'active'		=> 1
+        	);
+
+        if ($formtype == "add") {
+        	$rs = $this->ModelsExecuteMaster->ExecInsert($apped,'thowtoorder');
+			if ($rs) {
+				$data['success'] = true;
+				$data['message'] = 'Data Berhasil di simpan';
+			}
+			else{
+				$data['message'] = 'Banner Gagal di simpan';
+			}
+        }
+        elseif($formtype == "edit") {
+        	$rs = $this->ModelsExecuteMaster->ExecUpdate($apped,array('id'=>$id),'thowtoorder');
+			if ($rs) {
+				$data['success'] = true;
+				$data['message'] = 'Data Berhasil di simpan';
+			}
+			else{
+				$data['message'] = 'Banner Gagal di simpan';
+			}
+        }
+        else{
+        	$data['success'] = false;
+        	$data['message'] = 'Invalid FormType';
+        }
+        echo json_encode($data);
+    }
 }

@@ -5,6 +5,35 @@
 	Modifier : Aji AISTrick
 	Modifier URL : http://aistrick.com/
 -->
+<?php 
+	$last = $this->uri->total_segments();
+	$record_num = $this->uri->segment($last);
+	$contact = "";
+	$home = "";
+	$produk = "";
+	$order = "";
+	$about = "";
+	switch ($record_num) {
+		case 'contact':
+			$contact = "active";
+			break;
+		case 'about':
+			$about = "active";
+			break;
+		case 'home':
+				$home = "active";
+			break;
+		case 'produk':
+			$produk = "active";
+			break;
+		case 'order':
+			$order = "active";
+			break;
+		default:
+			$home = "active";
+			break;
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +47,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>Assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>Assets/css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>Assets/css/font-awesome.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>Assets/css/style.css">
 
@@ -69,6 +99,7 @@
 									<div class="logo-container">
 										<div class="logo-wrap">
 											<a href="#home" class="scroll">
+												<img src="<?php echo base_url();?>/Assets/images/logo.png" width = '50%'>
 												Planterbag Indonesia
 											</a>
 										</div>
@@ -81,20 +112,20 @@
 
 										<ul class="nav navbar-nav w3ls-nav1 text-center">
 
-											<li class="active">
-												<a href="#home" class="scroll">Home</a>
+											<li class="<?php echo $home; ?>">
+												<a href="<?php echo base_url() ?>">Home</a>
 											</li>
-											<li>
-												<a href="#about" class="scroll">About</a>
+											<li class="<?php echo $about; ?>">
+												<a href="<?php echo base_url() ?>about">About</a>
 											</li>
-											<li>
-												<a href="#produk" class="scroll">Produk</a>
+											<li class="<?php echo $produk; ?>">
+												<a href="<?php echo base_url() ?>produk">Produk</a>
 											</li>
-											<li>
-												<a href="#order" class="scroll">Order</a>
+											<li class="<?php echo $order; ?>">
+												<a href="<?php echo base_url() ?>order">Order</a>
 											</li>
-											<li>
-												<a href="#contact" class="scroll">Contact</a>
+											<li class="<?php echo $contact; ?>">
+												<a href="<?php echo base_url() ?>contact">Contact</a>
 											</li>
 
 										</ul>

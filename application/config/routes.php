@@ -59,7 +59,11 @@ $route['root/banner'] = 'Root/Home/banner';
 $route['root/about'] = 'Root/Home/about';
 $route['root/product'] = 'Root/Home/product';
 $route['root/contact'] = 'Root/Home/contact';
+$route['root/order'] = 'Root/Home/order';
 
 $route['about'] = 'welcome/about';
 $route['galery'] = 'welcome/galery';
 $route['contact'] = 'welcome/contact';
+$route['about'] = 'welcome/about';
+$route['produk'] = 'welcome/produk';
+$route['order'] = 'welcome/order';

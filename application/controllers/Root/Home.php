@@ -50,4 +50,8 @@ class home extends CI_Controller {
 	{
 		$this->load->view('Root/contactfromcust');
 	}
+	public function order()
+	{
+		$this->load->view('Root/order');
+	}
 }

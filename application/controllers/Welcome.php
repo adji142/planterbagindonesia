@@ -31,7 +31,7 @@ class Welcome extends CI_Controller {
 	}
 	public function about()
 	{
-		$this->load->view('aboutus');
+		$this->load->view('about');
 	}
 	public function galery()
 	{
@@ -39,6 +39,14 @@ class Welcome extends CI_Controller {
 	}
 	public function contact()
 	{
-		$this->load->view('contactus');
+		$this->load->view('contact');
+	}
+	public function produk()
+	{
+		$this->load->view('product');
+	}
+	public function order()
+	{
+		$this->load->view('orders');
 	}
 }

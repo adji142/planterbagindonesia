@@ -55,4 +55,19 @@ class app extends CI_Controller {
 		}
 		echo json_encode($data);
 	}
+	public function FindData()
+	{
+		$data = array('success' => false ,'message'=>array(),'data'=>array());
+
+		$id = $this->input->post('id');
+		$table = $this->input->post('table');
+
+		$rs = $this->ModelsExecuteMaster->FindData(array('id'=>$id),$table,'id asc');
+
+		if ($rs) {
+			$data['success'] = true;
+			$data['data'] = $rs->result();
+		}
+		echo json_encode($data);
+	}
 }
