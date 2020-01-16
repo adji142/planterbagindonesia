@@ -228,7 +228,7 @@
         if (width == 1680 && height == 900) {
           $.ajax({
             type    :'post',
-            url     : '<?=base_url()?>root/Apps/addAbout',
+            url     : '<?=base_url()?>Root/Apps/addAbout',
             data    : me.serialize(),
             dataType: 'json',
             success : function (response) {
