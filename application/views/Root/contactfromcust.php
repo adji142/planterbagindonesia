@@ -187,7 +187,7 @@
       var id = $(this).attr("id");
       $.ajax({
         type    :'post',
-        url     : '<?=base_url()?>root/Apps/showmessage',
+        url     : '<?=base_url()?>Root/Apps/showmessage',
         data    : {id:id},
         dataType: 'json',
         success : function (response) {
@@ -207,7 +207,7 @@
       var id = $(this).attr("id");
       $.ajax({
         type    :'post',
-        url     : '<?=base_url()?>root/Apps/showmessage',
+        url     : '<?=base_url()?>Root/Apps/showmessage',
         data    : {id:id},
         dataType: 'json',
         success : function (response) {
@@ -228,7 +228,7 @@
       var me = $(this);
         $.ajax({
           type    :'post',
-          url     : '<?=base_url()?>root/Apps/SendMail',
+          url     : '<?=base_url()?>Root/Apps/SendMail',
           data    : me.serialize(),
           dataType: 'json',
           success : function (response) {

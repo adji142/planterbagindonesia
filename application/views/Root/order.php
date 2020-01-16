@@ -132,7 +132,7 @@
       else{
         $.ajax({
           type    :'post',
-          url     : '<?=base_url()?>root/Apps/getordertc',
+          url     : '<?=base_url()?>Root/Apps/getordertc',
           data    : {id:id},
           dataType: 'json',
           success : function (response) {
@@ -161,7 +161,7 @@
         var me = $(this);
           $.ajax({
             type    :'post',
-            url     : '<?=base_url()?>root/Apps/addordertc',
+            url     : '<?=base_url()?>Root/Apps/addordertc',
             data    : me.serialize(),
             dataType: 'json',
             success : function (response) {
@@ -193,7 +193,7 @@
       var id = $(this).attr("id");
       $.ajax({
         type    :'post',
-        url     : '<?=base_url()?>root/Apps/showAbout',
+        url     : '<?=base_url()?>Root/Apps/showAbout',
         data    : {id:id},
         dataType: 'json',
         success : function (response) {

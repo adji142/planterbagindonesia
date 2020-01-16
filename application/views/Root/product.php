@@ -201,7 +201,7 @@
         if (width == 350 && height == 400) {
           $.ajax({
             type    :'post',
-            url     : '<?=base_url()?>root/Apps/addProduct',
+            url     : '<?=base_url()?>Root/Apps/addProduct',
             data    : me.serialize(),
             dataType: 'json',
             success : function (response) {

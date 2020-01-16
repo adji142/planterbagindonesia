@@ -196,7 +196,7 @@
         if (width == 1280 && height == 853) {
           $.ajax({
             type    :'post',
-            url     : '<?=base_url()?>root/Apps/addBanner',
+            url     : '<?=base_url()?>Root/Apps/addBanner',
             data    : me.serialize(),
             dataType: 'json',
             success : function (response) {
@@ -242,7 +242,7 @@
       var table = 'sitebanner';
       $.ajax({
         type    :'post',
-        url     : '<?=base_url()?>root/Apps/viewData',
+        url     : '<?=base_url()?>Root/Apps/viewData',
         data    : {id:id,table:table},
         dataType: 'json',
         success : function (response) {
@@ -260,7 +260,7 @@
       var table = 'sitebanner';
       $.ajax({
         type    :'post',
-        url     : '<?=base_url()?>root/Apps/viewData',
+        url     : '<?=base_url()?>Root/Apps/viewData',
         data    : {id:id,table:table},
         dataType: 'json',
         success : function (response) {
@@ -307,7 +307,7 @@
           var table = 'sitebanner';
           $.ajax({
             type    :'post',
-            url     : '<?=base_url()?>root/Apps/deleteRecord',
+            url     : '<?=base_url()?>Root/Apps/deleteRecord',
             data    : {id:id,table:table},
             dataType: 'json',
             success : function (response) {

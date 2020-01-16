@@ -275,7 +275,7 @@
       var id = $(this).attr("id");
       $.ajax({
         type    :'post',
-        url     : '<?=base_url()?>root/Apps/showAbout',
+        url     : '<?=base_url()?>Root/Apps/showAbout',
         data    : {id:id},
         dataType: 'json',
         success : function (response) {
