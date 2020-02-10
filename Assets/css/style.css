@@ -202,9 +202,10 @@ a:focus, a:hover {
 	    background-color: rgba(0, 0, 0, 0.16);
 }
 .navbar-header {
-    width: 200px;
+    width: 250px;
     text-align: center;
     padding: 5px 0px;
+    /*border-style: solid;*/
 }
 .logo-wrap a {
     font-size: 20px;

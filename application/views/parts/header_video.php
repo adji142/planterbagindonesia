@@ -86,10 +86,10 @@
 					<div class="navigation-overlay">
 						<div class="container-fluid">
 							<div class="row">
-
+							<div class="col-md-4 col-xs-8">
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-										<span class="sr-only">Toggle navigation</span>
+										<span class="sr-only">Toggle navigation</span> 
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
@@ -99,13 +99,13 @@
 									<div class="logo-container">
 										<div class="logo-wrap">
 											<a href="#home" class="scroll">
-												<img src="<?php echo base_url();?>/Assets/images/logo.png" width = '50%'>
-												Planterbag Indonesia
+												<img src="<?php echo base_url();?>/Assets/images/logo.png" width = '25%'>
+												<p>Planterbag Indonesia</p>
 											</a>
 										</div>
 									</div>
 								</div> <!-- end navbar-header -->
-
+							</div>
 
 								<div class="col-md-8 col-xs-12 nav-wrap">
 									<div class="collapse text-center navbar-collapse w3ls-nav navbar-collapse">
